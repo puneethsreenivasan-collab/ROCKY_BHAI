@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+<style>
+    table{
+        border: 1px solid black;
+    }
+    th,td{
+        border: 1px solid black;
+    }
+
+</style>
+
+  </head>
+  <body>
+    <!-- table tage is used to create a table where we can add rows and columns
+     child tags of table = tr , th , td
+     attributes used in table = border , cellpadding , cellspacing which can only be used in table tage 
+     it cant't be used in tr , th , td
+
+     attributes used in td, th = rowspan , colspan
+
+     rowspan is used to merge rows
+     colspan is used to merge columns
+
+
+    
+    -->
+    <table>
+      <tr >
+        <th>Name</th>
+        <th>Eamil</th>
+        <th>Marks</th>
+      </tr>
+      <tr>
+        <td>sheela</td>
+        <td rowspan="5" >Sheela@123.com</td>
+        <td>100</td>
+      </tr>
+         <tr>
+        <td>sheela</td>
+        <td>100</td>
+      </tr>   <tr>
+        <td>sheela</td>
+        <td>100</td>
+      </tr>   <tr>
+        <td>sheela</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td colspan="2">total</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>.</td>
+      </tr>
+    </table>
+  </body>
+</html>

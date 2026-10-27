@@ -1,0 +1,68 @@
+/* types of selectors
+tag selector 
+* universal selector
+. class selector
+# id selector
+> child selector
++ adjacent sibling selector
+~ general sibling selector
+
+pseudo class
+:hover
+:active
+:visited
+:link
+:before
+:after
+
+*/
+nav{
+    height: 90px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+}
+
+.nav-logo{
+    height: 100%;
+    width: 20%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links{
+    height: 100%;
+    width: 50%;
+    background-color: green;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-links > a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links > select{
+    background-color: red;
+    color: rgb(198, 245, 179);
+
+}
+
+.nav-links > select > option{
+    background-color: rgb(241, 236, 236);
+    color: rgb(10, 10, 10);
+    
+}
+.nav-btn{
+    height: 100%;
+    width: 30%;
+    background-color: yellow;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+

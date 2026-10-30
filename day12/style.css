@@ -1,0 +1,52 @@
+main {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  /*   top  right  bottom  left */
+  /* padding: 100px 10px 400px 300px; */
+
+  /* top bottom and left right */
+  padding: 100px 20px;
+}
+
+.Card {
+  height: 300px;
+  min-width: 300px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+/* :hover */
+
+.Card:hover {
+  background-color: rgb(3, 247, 32);
+  border-radius: 0;
+  /* transform: rotate(-360deg) ; */
+  /* transform: rotateX(360deg) ; */
+  /* transform: rotateY(180deg) ; */
+  /* transform: translateY(-120px) ; */
+  /* transform: translateX(120px) ; */
+  /* transform: translateX(120px) translateY(120px); */
+  /* transform: rotate(360deg) translateX(600px) ; */
+  /* transform: scale(0.8); */
+  /* transform: skew(); */
+
+  
+
+  
+
+  
+
+
+
+}

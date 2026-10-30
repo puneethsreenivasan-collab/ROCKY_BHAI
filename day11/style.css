@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  border-bottom: 1px solid black;
+  position:fixed;
+}
+.nav-logo {
+  height: 100%;
+  flex: 0.5;
+  /* width:; */
+  /* background-color: #62c219; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo h1 {
+  color: aqua;
+}
+
+.nav-links {
+  height: 100%;
+  flex: 1;
+
+  /* width:; */
+  /* background-color: #100f0f; */
+  flex: 1;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-links > a {
+  text-decoration: none;
+  color: rgb(14, 14, 14);
+  font-size: 20px;
+}
+
+.nav-btns {
+  height: 100%;
+  /* width:; */
+  /* background-color: #c44b4b; */
+  flex: 0.5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-btns > button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* start hero */
+.hero {
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(240, 10, 10);
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 40px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-part1 {
+  height: 300px;
+  flex: 1;
+  background-color: rgb(14, 14, 14);
+}
+.hero-part2 {
+  height: 300px;
+  flex: 1;
+  background-color: rgb(217, 207, 207);
+}
+/* bbc start */
+.bbc {
+  height: 120vh;
+  width: 100%;
+  background-color: rgb(240, 171, 10);
+  display: flex;
+  border-bottom: 1px solid black;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+.bbc-part1 {
+  height: 50%;
+  flex: 1;
+  background-color: rgb(228, 219, 219);
+}
+.bbc-part2 {
+  height: 50%;
+  flex: 1;
+  background-color: rgb(72, 107, 233);
+}
+
+.Fjobs {
+  height: 140vh;
+  width: 100%;
+  background-color: rgb(148, 240, 10);
+  display: flex;
+  border-bottom: 1px solid black;
+  flex-direction: column;
+  padding: 20px 40px;
+}
+
+.Fjobs-part1 {
+  height: 30%;
+  /* flex: 1; */
+  width: 100%;
+  background-color: rgb(220, 202, 202);
+}
+.Fjobs-part2 {
+  height: 60%;
+  /* flex: 1; */
+  width: 100%;
+
+  background-color: rgb(12, 57, 221);
+}
+.Fjobs-part3 {
+  height: 10%;
+  /* flex: 1; */
+  width: 100%;
+
+  background-color: rgb(167, 170, 180);
+}
+
+.jobinfo {
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(240, 10, 225);
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 20px 20px;
+}
+.jobinfo-part1 {
+  height: 100%;
+  flex: 1;
+  background-color: rgb(14, 14, 14);
+}
+.jobinfo-part2 {
+  height: 100%;
+  flex: 1;
+  background-color: rgb(217, 207, 207);
+}
+
+.Rjobs {
+  height: 150vh;
+  width: 100%;
+  background-color: rgb(225, 240, 10);
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 20px 20px;
+  flex-direction: column;
+
+}
+
+.Rjobs-part1 {
+  height: 10%;
+  width: 100%;
+  /* flex: 1; */
+  background-color: rgb(14, 14, 14);
+  
+}
+.Rjobs-part2 {
+  height: 80%;
+  width: 100%;
+
+  /* flex: 1; */
+  background-color: rgb(217, 207, 207);
+}
+
+.Hcust {
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(10, 14, 240);
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 20px 20px;
+
+}
+
+.Hcust-part1 {
+  height: 100%;
+  flex: 1;
+  background-color: rgb(14, 14, 14);
+}
+.Hcust-part2 {
+  height: 100%;
+  flex: 1;
+  background-color: rgb(217, 207, 207);
+}
+
+.Offers {
+  height: 40vh;
+  width: 100%;
+  background-color: rgb(48, 240, 10);
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 20px 20px;
+
+}
+
+.Offers-part1 {
+  height: 100%;
+  flex: 1;
+  background-color: rgb(14, 14, 14);
+}
+.Offers-part2 {
+  height: 100%;
+  flex: 1;
+  background-color: rgb(217, 207, 207);
+}

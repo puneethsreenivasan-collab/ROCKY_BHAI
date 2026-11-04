@@ -1,0 +1,28 @@
+.smaller{
+    height: 50px;
+    width: 50px;
+}
+.small{
+    height: 100px;
+    width: 100px;
+
+}
+.big{
+    height: 200px;
+    width: 200px;
+}
+.bigger{
+    height: 300px;
+    width: 300px;
+}
+
+
+.danger{
+    background-color: red;
+}
+.success{
+    background-color: green;
+}
+.warning{
+    background-color: yellow;
+}

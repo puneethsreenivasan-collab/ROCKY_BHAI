@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 90px 70vh 100px;
+  grid-template-areas:
+  "header van van"
+  "sidebar-left article sidebar-right"
+  "sidebar-left footer footer"
+  ;
+}
+
+header{
+  background-color: rgb(8, 221, 244);
+  grid-area: header;
+}
+nav{
+  background-color: gray;
+  grid-area: van;
+}
+
+.sidebar-left{
+  background-color: red;
+  grid-area: sidebar-left;
+}
+
+article{
+  background-color: green;
+  grid-area: article;
+}
+
+.sidebar-right{
+  background-color: blue;
+  grid-area: sidebar-right;
+}
+
+footer{
+  background-color: rgb(236, 244, 8);
+  grid-area: footer;
+}

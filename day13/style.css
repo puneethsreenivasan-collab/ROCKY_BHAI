@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  height: 90px;
+  width: 100%;
+  background-color: black;
+  /* position: sticky; */
+  position: fixed;
+  top: 100px;
+  z-index: 11;
+}
+
+article {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(222, 25, 25);
+  border: 10px solid wheat;
+  position: relative;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  border-radius: 50%;
+  /* position:fixed ; */
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}

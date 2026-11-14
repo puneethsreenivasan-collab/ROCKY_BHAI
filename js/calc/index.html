@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <article class="calc">
+        <input type="text" id="display" value="0" />
+
+        <div class="btn-row">
+          <button onclick="clear()">C</button><button onclick="backspace()">DEL</button><button onclick="divide()">/</button><button onclick="multiply()">X</button>
+        </div>
+        <div class="btn-row">
+          <button onclick="seven()">7</button><button onclick="eight()">8</button><button onclick="nine()">9</button><button onclick="minus()">-</button>
+        </div>
+        <div class="btn-row">
+          <button onclick="four()">4</button><button onclick="five()">5</button><button onclick="six()">6</button><button onclick="plus()">+</button>
+        </div>
+        <div class="btn-row">
+          <button onclick="one()">1</button><button onclick="two()">2</button><button onclick="three()">3</button><button onclick="equal()">=</button>
+        </div>
+        <div class="btn-row">
+          <button onclick="zero()">0</button><button onclick="doublezero()">00</button> <button onclick="percent()">%</button> <button onclick="dot()">.</button>
+        </div>
+      </article>
+    </main>
+
+
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
